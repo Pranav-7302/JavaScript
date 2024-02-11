@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presidence and Operator</title>
+    <style>
+        *{
+            height: fit-content;
+            width: auto;
+            background-color: red;
+        }
+        pre{
+            font-size: 20px;
+            color: white;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>
+      Q4. Discuss the precedence and associativity of operators in JavaScript.
+      Why is understanding these concepts important?
+    </h2>
+
+    <h2><pre>
+      In JavaScript, precedence and associativity are two important concepts
+      that determine the order in which operators are evaluated in an
+      expression. Understanding these concepts is crucial for writing correct
+      and predictable code. Let's discuss each concept:
+    </pre>
+    </h2>
+
+    <pre>
+1. Precedence:-
+
+Precedence determines the order in which operators are evaluated when multiple operators are present in an expression.
+Operators with higher precedence are evaluated first, followed by operators with lower precedence.
+
+Parentheses () can be used to override the default precedence and explicitly specify the order of evaluation.
+
+JavaScript operators have different precedence levels, with higher precedence operators being 
+evaluated first. For example, multiplication (*) has a higher precedence than addition (+).
+
+Example:
+
+var result = 2 + 3 * 4; // Multiplication (*) has higher precedence than addition (+)
+console.log(result); // Output: 14 (3 * 4 = 12, 2 + 12 = 14)
+
+
+2. Associativity:-
+
+Associativity determines the order in which operators of the same precedence are evaluated.
+It specifies whether an expression is evaluated from left to right (left-associative) or right
+ to left (right-associative).
+
+Most operators in JavaScript are left-associative, meaning they are evaluated from left to right.
+
+However, some operators, such as the assignment operators (=), are right-associative, meaning they are evaluated from right to left.
+
+var a = 10;
+var b = 5;
+var c = 2;
+var result = a = b = c; // Assignment operators are right-associative
+console.log(result); // Output: 2 (c is assigned to b, and then b is assigned to a)
+
+    </pre>
+  </body>
+</html>

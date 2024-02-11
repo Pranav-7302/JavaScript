@@ -1,0 +1,34 @@
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and multi-line comments.
+
+Ans:- Comments in JavaScript serve as non-executable text that provides information about the code. They are essential for improving code readability, documenting code functionality, and explaining the purpose of specific sections or individual lines of code. Comments also facilitate collaboration among developers by making the code easier to understand and maintain.
+
+Here's why comments are important in JavaScript:
+
+Documentation: Comments help document the code, including its purpose, functionality, and any important information that might not be immediately obvious from the code itself. This documentation is valuable for developers who need to understand or modify the code in the future.
+
+Clarity and Readability: Comments make the code easier to read and understand by providing context and explanations for complex logic or algorithms. They help other developers (including future versions of yourself) navigate and comprehend the code more efficiently.
+
+Debugging and Troubleshooting: Comments can also be used for debugging purposes by temporarily disabling specific lines of code or adding notes about potential issues or areas that need further investigation.
+
+Code Maintenance: Comments aid in maintaining and updating the codebase by providing guidance on how different parts of the code work together and why certain decisions were made during development.
+
+Here are examples of single-line and multi-line comments in JavaScript:
+
+// Single-line comment: This is a comment explaining the purpose of the following line of code.
+let x = 10; // This variable stores the value 10.
+
+/*
+Multi-line comment:
+This is a comment block that spans multiple lines.
+It provides additional information or explanations about a section of code.
+*/
+function add(a, b) {
+    // This function adds two numbers together and returns the result.
+    return a + b;
+}
+In the examples above:
+
+// indicates a single-line comment, which continues until the end of the line.
+/* starts a multi-line comment block, and */ ends the block. All text between these delimiters is treated as a comment, including line breaks.
+
+Both single-line and multi-line comments are useful in different scenarios, depending on the amount of information you need to convey and whether the comment applies to a single line or multiple lines of code.

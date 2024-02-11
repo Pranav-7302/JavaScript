@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        background-color: rgb(136, 8, 8);
+      }
+      pre {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+      }
+      h3 {
+        font-size: 30px;
+        color: aqua;
+      }
+      hr{
+        border: 3px solid rgb(0, 0, 0);
+      }
+      h2{
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>
+      Q3. Differentiate between unary, binary, and ternary operators in
+      JavaScript. Give examples of each.
+    </h2>
+
+    <h2>
+      In JavaScript, operators are symbols that perform operations on operands,
+      which can be values or variables. These operators can be categorized based
+      on the number of operands they take:
+    </h2>
+<hr>
+    <h3>Unary Operators:</h3>
+    <pre>
+Unary operators are those that operate on a single operand.
+Examples include:
+Unary plus (+): Converts its operand into a number, if it isn't already. If the operand is not a number, it attempts to convert it to one.
+javascript
+Copy code
+var x = "10";
+console.log(+x); // Output: 10
+Unary minus (-): Negates its operand.
+javascript
+Copy code
+var y = 5;
+console.log(-y); // Output: -5
+Logical NOT (!): Converts its operand to a boolean value and returns the inverse.
+javascript
+Copy code
+var isTrue = false;
+console.log(!isTrue); // Output: true</pre
+    >
+
+    <hr />
+    <h3>Binary Operators:</h3>
+    <pre>
+Binary operators operate on two operands.
+Examples include:
+Addition (+): Adds two operands or concatenates two strings.
+javascript
+Copy code
+var a = 5;
+var b = 10;
+console.log(a + b); // Output: 15
+Subtraction (-): Subtracts the second operand from the first.
+javascript
+Copy code
+var c = 10;
+var d = 3;
+console.log(c - d); // Output: 7
+Assignment (=): Assigns a value to a variable.
+javascript
+Copy code
+var e = 20;
+</pre
+    >
+
+    <hr />
+    <h3>Ternary Operator:</h3>
+    <pre>
+The ternary operator is the only JavaScript operator that takes three operands.
+It's a conditional operator that evaluates a condition and returns one of two values depending on whether the condition is true or false.
+Syntax: condition ? value1 : value2
+Example:
+javascript
+Copy code
+var age = 20;
+var status = (age >= 18) ? "adult" : "minor";
+console.log(status); // Output: adult
+In this example, if the condition (age >= 18) is true, the value "adult" is assigned to the variable status; otherwise, the value "minor" is assigned.
+These are the primary categories of operators in JavaScript based on the number of operands they take. Each category has specific operators with distinct behaviors.</pre
+    >
+  </body>
+</html>

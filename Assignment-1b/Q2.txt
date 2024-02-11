@@ -1,0 +1,42 @@
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+
+Ans:-JavaScript and HTML are both fundamental technologies used in web development, but they serve different purposes and have distinct characteristics. Here are the key differences between them along with examples of situations where you would use each:
+
+Purpose:
+
+HTML (Hypertext Markup Language): HTML is a markup language used for structuring the content of web pages. It defines the layout and presentation of text, images, links, forms, and other elements on a webpage.
+
+
+JavaScript: JavaScript is a programming language used for adding interactivity, dynamic behavior, and logic to web pages. It allows developers to manipulate HTML elements, respond to user actions, and create dynamic content.
+Static vs. Dynamic:
+
+
+HTML: HTML is static in nature. It defines the structure and content of a webpage, which remains constant unless manually edited.
+JavaScript: JavaScript adds dynamism to web pages by enabling interactions and updates in real-time based on user input or other events. It allows for dynamic content generation and manipulation.
+Execution:
+
+HTML: HTML is parsed and rendered by web browsers to display the content of a webpage. It does not involve programming logic or dynamic behavior.
+JavaScript: JavaScript code is executed by the browser's JavaScript engine, allowing for the execution of scripts and the manipulation of HTML and CSS based on various conditions and events.
+Usage:
+
+HTML: HTML is used to create the structure and content of web pages. It defines elements such as headings, paragraphs, lists, links, images, tables, forms, and more.
+
+
+<!-- Example of HTML code -->
+<h1>Welcome to My Website</h1>
+<p>This is a paragraph of text.</p>
+<img src="image.jpg" alt="Description of the image">
+<a href="https://example.com">Link to Example</a>
+JavaScript: JavaScript is used to add interactivity and dynamic behavior to web pages. It can be used for tasks such as form validation, DOM manipulation, event handling, animations, AJAX requests, and more.
+
+
+// Example of JavaScript code
+document.getElementById('submitBtn').addEventListener('click', function() {
+    var inputText = document.getElementById('textInput').value;
+    alert('You entered: ' + inputText);
+});
+Compatibility:
+
+HTML: HTML is supported by all modern web browsers and is a standard for web page markup.
+JavaScript: JavaScript is also supported by all modern web browsers, but differences in browser implementations and versions may affect JavaScript code execution. However, frameworks and libraries often address these compatibility issues.
+In summary, HTML is used for structuring and defining the content of web pages, while JavaScript is used for adding interactivity, dynamic behavior, and logic to those web pages. Both are essential components of web development and often work together to create rich and engaging web experiences.
